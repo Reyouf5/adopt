@@ -1,1 +1,26 @@
-// Inspired from: https://www.uplabs.com/posts/header-a628bb01-f823-40d3-a13b-eac03bd338a2
+var toggleBtns = document.querySelectorAll('.js-formToggle');
+for(var i = 0; i < toggleBtns.length; i++){
+  toggleBtns[i].addEventListener("click", toggleForm);
+}  
+
+
+var firstClick = true; 
+
+function toggleForm(){
+  
+  if(!firstClick){
+    document.querySelector('.js-imageAnimate').classList.toggle("animate");
+    document.querySelector('.js-imageAnimate').classList.toggle("animateOut");
+ 
+  
+    document.querySelector('.js-panel__content').classList.toggle("animate");
+    document.querySelector('.js-panel__content').classList.toggle("animateOut");
+  }
+  else{
+    firstClick = false;
+        document.querySelector('.js-imageAnimate').classList.add("animate");
+    document.querySelector('.js-panel__content').classList.add("animate");
+
+  }
+  
+}
