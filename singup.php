@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Sign Up/ Sign In  </title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://raw.githack.com/Reyouf5/adopt/main/style1.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -69,7 +69,7 @@
 </div>
 </body>
 <!-- partial -->
-  <script  src="./script.js"></script>
+  <script  src="https://raw.githack.com/Reyouf5/adopt/main/script.js"></script>
 
 </body>
 </html>
